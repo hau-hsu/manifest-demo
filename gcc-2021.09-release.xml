@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com"
+           revision="main"
+           review="" />
+  <default remote="github"
+           revision="main"
+           sync-j="4" />
+
+<project name="sifive/riscv-binutils-gdb-internal"
+         path="riscv-binutils"
+         revision="sifive-binutils-2021.09-release"/>
+
+<project name="sifive/riscv-gcc-internal"
+         path="riscv-gcc"
+         revision="sifive-gcc-2021.09-release"/>
+
+<project name="sifive/riscv-gilbc-private"
+         path="riscv-glibc"
+         revision="sifive-glibc-2021.09-release"/>
+
+
+</manifest>
