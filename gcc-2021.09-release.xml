@@ -16,7 +16,7 @@
          path="riscv-gcc"
          revision="sifive-gcc-2021.09-release"/>
 
-<project name="sifive/riscv-gilbc-private"
+<project name="sifive/riscv-glibc-private"
          path="riscv-glibc"
          revision="sifive-glibc-2021.09-release"/>
 
