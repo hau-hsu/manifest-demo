@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="ssh://git@github.com"
+           revision="main"
+           review="" />
+  <default remote="github"
+           revision="main"
+           sync-j="4" />
+
+
+
+<project name="hau-hsu/update-me"
+	     path="update-me"/>
+  
+<project name="hau-hsu/repo-demo"
+	     path="repo-demo"/>
+
+</manifest>
