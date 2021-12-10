@@ -20,5 +20,7 @@
          path="riscv-glibc"
          revision="sifive-glibc-2021.09-release"/>
 
+<project name="hau-hsu/update-me"
+	     path="update-me"/>
 
 </manifest>
